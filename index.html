@@ -2,58 +2,72 @@
 <!-- 26i-3222 -->
 <!-- SE A -->
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FoldiGo</title>
+    <title>FoldiGo - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <h1>FoldiGO</h1>
-    <p>Have you ever forgotten or ripped your shopping bag?</p>
-    <p>No worries! We got you.</p>
-    <img src="images.jpg" alt="HELLO WORLD!" width="250">
-    <h2>CARRY LESS, CARRY MORE</CARRY></h2>
-    <p1>The bag that Folds into a Keychain.Open it in secondswhenever you need extra space, then fold it again into a keychain.</p1>
-<button onclick="hi()">Buy Now</button>
+<body style="background-color: pink;">
+    <header>
+        <h1>FoldiGO</h1>
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="how-it-works.html">How It Works</a> | 
+            <a href="about.html">About Us</a> | 
+            <a href="contact.html">Order / Contact</a>
+        </nav>
+    </header>
 
-<h3>FEAUTURES</h3>
-<p>1. Light weight</p>
-<p>2. Easy to Carry</p>
-<p>3. Strong</p>
-<p>4. Good Quality</p>
-<h4>SIZES AND PRICES</h4>
-    <table>
+    <main>
+        <p>Have you ever forgotten or ripped your shopping bag?</p>
+        <p>No worries! We got you.</p>
+        <img src="bag.jpg" alt="FoldiGo Bag" width="250">
+        <h2>CARRY LESS, CARRY MORE</h2>
+        <p class="oblique-text">The bag that folds into a keychain. Open it in seconds whenever you need extra space, then fold it again into a keychain.</p>
+        <button onclick="hi()">Buy Now</button>
 
-<tr>
-    <td> Size: </td>
-   <td>  Small   </td>
-   <td>  Medium  </td>
-   <td>  Large   </td>
-</tr>
-<tr>
-<td>Colours:</td>
-<td>Pink</td>
-<td>Pink</td>
-<td>Pink</td>
-</tr>
-<tr>
-    <td>Prices:</td>
-    <td>Rs 50</td>
-    <td>Rs 70</td>
-    <td>Rs 120</td>
-</tr>
+        <h3>FEATURES</h3>
+        <p>1. Light weight</p>
+        <p>2. Easy to Carry</p>
+        <p>3. Strong</p>
+        <p>4. Good Quality</p>
 
-</table>
-<script>
-    function hi(){
-        alert('Bought')
-        console.log("Hello, But it Now")
-    }
-</script>
+        <h4>SIZES AND PRICES</h4>
+        <table>
+            <tr>
+                <td>Size:</td>
+                <td>Small</td>
+                <td>Medium</td>
+                <td>Large</td>
+            </tr>
+            <tr>
+                <td>Colours:</td>
+                <td>Pink</td>
+                <td>Pink</td>
+                <td>Pink</td>
+            </tr>
+            <tr>
+                <td>Prices:</td>
+                <td>Rs 50</td>
+                <td>Rs 70</td>
+                <td>Rs 120</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 FoldiGo Inc. | Huma Yaseen (26i-3222) - Section A</p>
+    </footer>
+
+    <script>
+        function hi(){
+            alert('Bought! Thank you for ordering FoldiGo.');
+            console.log("Hello, Buy It Now clicked!");
+        }
+    </script>
 </body>
 </html>
